@@ -1,0 +1,771 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(images/hero-bg/landing.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+
+}
+
+.navbar{
+    background-color: aliceblue;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+
+}
+
+.logo {
+    width: 120px;
+    cursor: pointer;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar ul li a:hover {
+    color: rgb(220, 86, 191);
+}
+
+.content {
+    color: aliceblue;
+    width: 100%;
+    top: 30%;
+    position: absolute;
+    text-align: center;
+}
+
+.content h1 {
+    font-size: 50px;
+    margin-top: 60px;
+}
+
+.content p {
+    margin: 20px auto;
+    font-weight: 100;
+
+}
+
+button {
+    width: 100px;
+    padding: 15px;
+   background: transparent;
+   color: aliceblue;
+   border: 1px outset #fff;
+   cursor: pointer;
+   margin-top: 20px;
+}
+
+.course {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px ;
+}
+
+.course h1 {
+    font-size: 36px;
+    font-weight: 600;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.course h2{
+    font-family:Garamond    ;
+    font-size: 40px;
+    color: rgb(72, 74, 74);
+    
+}
+.course p {
+    color: #777;
+    padding-top: 20px;
+ 
+}
+.row {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.course-col {
+    flex-basis: 31%;
+    background: #fff;
+    padding: 20px 12px;
+    box-sizing: border-box;
+
+}
+.course-col h3 {
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.course-col i {
+    color: rgb(224, 47, 11);
+    font-size: 8em ;
+    text-align: center;
+}
+
+.temp {
+    text-align: center;
+    margin-top: 60px;
+    width: 100%;
+}
+.temps {
+    width: 100%;
+    display: flex;
+    
+    justify-content: center;
+}
+.ico{
+    display: flex;
+    background: #fff;
+    margin-top: 30px;
+}
+.ico i {
+    color: red;
+    font-size: 50px;
+}
+.im{
+    width: 600px;
+    height: 400px;
+    justify-content: center;
+}
+
+.team-e{
+    width: 100%;
+   margin: auto;
+   
+   padding-top: 50px;
+   
+}
+.team-e h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.team-e p{
+    text-align: center;
+    margin-bottom: 50px;
+   
+}
+.photo-m{
+    display: flex;
+    justify-content: center;
+}
+
+.photo-a {
+    margin-left: 10px;
+}
+
+.team-n{
+    display: flex;
+    justify-content: center;
+    margin-right: 100px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    
+    
+}
+.let{
+    margin-top: 40px;
+    margin-bottom: 5px;
+    font-size: 400;
+    letter-spacing: 1px;
+    margin-right:20em ;
+}
+.skills h2{
+    
+    font-size: 400;
+    letter-spacing: 1px;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    
+}
+.progress-par{
+    background: #726e6e;
+    width: 600px;
+    height: 10px;
+    border-radius: 5px;
+}
+.progress-par div{
+    height: 10px;
+    border-radius: 5px;
+    
+    
+}
+.progress-par div span{
+    
+    float: right;
+    margin-top: -15px;
+    
+    color: black;
+    display: flex;
+    align-items: center;
+}
+.photoshop {
+    background: #0b0b0b;
+    width: 75%;
+}
+.html {
+    background: #0b0b0b;
+    width: 95%;
+
+}
+.css {
+    background: #0b0b0b;
+    width: 85%;
+}
+.jquery {
+    background: #0b0b0b;
+    width: 73%;
+}
+.photoshop span{
+    margin-right: -152px;
+}
+.html span{
+    margin-right: -32px;
+}
+.css span{
+    margin-right: -90px;
+}
+.jquery span{
+    margin-right: -160px;
+    margin-bottom: 100px;
+}
+
+.team-a{
+    width: 100%;
+    height: 50vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(images/clients/clients-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    
+    
+}
+.btn{
+    color: #fff;
+    background: transparent;
+    text-decoration: none;
+    
+   
+    display: inline-block;
+    padding: .9375em 2.1875em;
+    letter-spacing: .7px;
+    margin: 25px;
+    border: 1px outset #fff;
+
+}
+.team-a-c{
+   
+   padding-top: 170px;
+    
+    
+}
+
+.eman{
+    margin-left: 450px;
+}
+.team-a-c h3{
+    margin-bottom: 30px;
+}
+.section5{
+    width: 100%;
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+
+}
+.im{
+ 
+}
+.in{
+    margin-left: 250px;
+}
+.waad{
+    margin-top: 30px;
+}
+.waad h3{
+    margin-bottom:15px ;
+}
+.section6 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+}
+.section6-le {
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.section6-le h3{
+    margin-bottom: 20px;
+}
+.btnn{
+    color: #fff;
+    background: rgb(226, 20, 72);
+    text-decoration: none;
+    
+   
+    display: inline-block;
+    padding: .9375em 2.1875em;
+    letter-spacing: .7px;
+    margin: 25px;
+    border: 1px outset #fff;
+}
+.section7{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+.section7 h3{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.section-photos{
+    margin-top: 60px;
+}
+
+.section-photos img{
+    width: 200px;
+    height: 700px;
+   
+}
+.section9{
+    width: 100%;
+    height: 35vh;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(images/clients/clients-bg.jpg);
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    
+
+}
+.section9-photo{
+    display: flex;
+    width: 200em;
+    height: 150px;
+    margin-top: 5em;
+}
+.section9-photo img{
+    width: 200px;
+    height: 150px;
+
+}
+.section10 {
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+
+}
+.section10-price{ 
+    display: flex;
+    justify-content: center;
+   margin-top: 70px;
+    
+    
+}
+.price-col{
+    background: #fbfafa;
+    margin-left: 80px;
+   padding: 20px 80px ;
+
+    
+    text-align: center;
+}
+.price-col p{
+    font-size: 22px;
+}
+.price-col h3{
+    font-size: 44px;
+    margin: 20px 0 40px;
+    font-weight: 500;
+}
+.price-col-pp{
+   margin: 20px 0;
+   font-size: 5px;
+}
+.price-col-pp p {
+    margin: 15px 0;
+    font-size: 15px;
+    
+}
+.btnnn{
+    color: #fff;
+    background: rgb(6, 6, 6);
+    text-decoration: none;
+    
+   
+    display: inline-block;
+    padding: .5em .9em;
+ 
+    margin: 25px;
+    border: 1px outset #fff;
+}
+
+.section11 {
+    width: 100%;
+    height: 15vh;
+    background: #d3d0d0;
+    margin-top: 70px;
+    text-align: center;
+    justify-content: center;
+    padding: 70px ;
+   
+}
+
+
+
+.btn-4{
+    color: #fff;
+    background: rgb(41, 40, 40);
+    text-decoration: none;
+    
+   
+    display: inline-block;
+    padding: .7em 2.1875em;
+    letter-spacing: .7px;
+    margin: 25px;
+    border: 1px outset #fff;
+}
+
+.section11-col {
+    padding-top: 20px;
+}
+.section11-col input{
+    width: 70vh;
+    height:40px ;
+    
+}
+.section12 
+{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    padding-top: 80px;
+} 
+
+.section12-con img{
+    border-radius: 50%;
+}
+
+.section12-con p span {
+    color: red;
+}
+.section12-map iframe {
+    width: 100%;
+    height: 30vh;
+    padding-top: 90px;
+}
+
+.section13 {
+    width: 100%;
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+   
+    
+}
+.section13-email{
+   background: #fff;
+   display: flex;
+   flex-direction: column;
+   padding: 2vw 4vw;
+   width: 90%;
+   max-width: 800px;
+   border-radius: 10px;
+}
+.section13-email p {
+   padding-bottom: 100px;
+   color: #726e6e;
+   margin-top: 30px;
+}
+.section13-email input,.section13-email textarea{
+    border: 0;
+    margin: 10px 0;
+    padding: 20px;
+    background: #fbfafa;
+    font-size: 16px;
+}
+
+.fot14 {
+    
+    margin-top: 100px;
+}
+.fot144{
+    display: flex;
+    justify-content: center;
+}
+.fot14-col {
+    padding: 50px 150px;
+    
+   
+}
+
+.foot {
+    width: 100%;
+    height: 30vh;
+    background: #d8d6d6;
+    text-align: center;
+    justify-content: center;
+ 
+
+}
+.list {
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.6;
+    
+   
+}
+
+.list a{
+    color: #0b0b0b;
+    text-decoration: none;
+    opacity: .5;
+    
+}
+.list li {
+    display: inline-block;
+    padding: 50px 30px;
+    margin-top: 20px;
+    
+}
+
+.foot p {
+    opacity: .5;
+}
+
+.foot p span {
+    color: red;
+}
+@media (max-width:700px) {
+    .content h1 {
+        font-size: 8px;
+        margin-top: 30px;
+        margin-right: 90px;
+    }
+    .content hr {
+        margin-right: 90px;
+    }
+    .content p {
+        margin: 10px auto;
+        font-weight: 50;
+        font-size: 8px;
+        margin-right: 90px;
+    }
+    
+    button {
+        width: 50px;
+        padding: 10px;
+        font-size: 5px;
+        margin-right: 90px;
+    
+       
+    }
+    .navbar ul li a  {
+        display: block;
+
+    }
+    .navbar {
+       
+        position: absolute;
+        height: 100vh;
+        width: 150px;
+        top: 0;
+        right: 0;
+        text-align: left;
+        z-index: 2;
+       display: block;
+        
+    }
+    .row {
+        flex-direction: column;
+    }
+    .temp h3 {
+        font-size: 10px;
+    }
+    .temp p {
+        font-size: 8px;
+    }
+    .temps {
+        flex-direction: column;
+        
+    }
+    .ico {
+        justify-content: center;
+    }
+    .im {
+        width: 200px;
+        height: 180px;
+    }
+    .ico i {
+        font-size: 30px;
+    }
+    .course h1 {
+        font-size: 15px;
+    }
+    .course p {
+        font-size: 7px;
+    }
+    .course h2 {
+        font-size: 18px;
+    }
+    .course-col i {
+        font-size:30px ;
+    }
+    .course-col h3 {
+        font-size: 20px;
+    }
+    .photo-m{
+        flex-direction: column;
+    }
+    .team-e h3 {
+        font-size: 15px;
+    }
+    .team-e p{
+        font-size: 8px;
+    }
+    .team-n{
+        flex-direction: column;
+  
+    }
+    .team-n p{
+        margin-left: 50px;
+        font-size: 10px;
+    }
+    .team-n h2 {
+        font-size: 15px;
+        margin-left: 50px;
+    }
+    .photo-a img{
+        width: 200px;
+        height: 150px;
+        margin-bottom: 20px;
+
+    }
+   
+    .team-a-c h3 {
+        font-size: 10px;
+        margin-left: 15px;
+       margin-bottom: 10px;
+    }
+    
+    .team-a-c p{
+        font-size: 8px;
+        margin-left: 15px;
+    }
+    .team-a-c a{
+        margin-left: 15px;
+    }
+    .emy {
+        width: 100px;
+        height: 60px;
+        margin-top: 50px;
+    }
+    .eman {
+        margin-left: 40px;
+    }
+    .team-a-c {
+        margin-top: -80px;
+    }
+    .im{
+        width: 50px;
+        margin-left: 20px;
+    }
+   .im h3 {
+        font-size: 8px;
+       
+    }
+    .im p {
+        font-size: 5px;
+        
+    }
+    .in img {
+        width: 50px;
+        height: 200px;
+    }
+    .in {
+        margin-left: 50px;
+    }
+    .waad {
+        margin-top: 5px;
+    }
+    .waad h3 {
+        margin-bottom: 5px;
+    }
+    .section6-img img {
+        width: 150px;
+        margin-top: 80px;
+    }
+    .section6-le {
+        margin-left: 30px;
+    }
+    .section10-price {
+        flex-direction: column;
+    }
+    .price-col {
+        margin-left: 5px;
+    }
+    .section10 h3 {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    .section10 p{
+        font-size: 8px;
+    }
+    
+}
+.video { 
+    background-image: url(images/tweet-bg.jpg);
+    width: 100%;
+    height: 350px;
+    background-size: 100%;
+    background-attachment: fixed;
+    margin-bottom: 20px;
+}
+.overlay{
+    background-color:rgba(196, 46, 12, 0.717);
+    width: 100%;
+    height: 350px;
+}
+.iconn {
+    padding-top: 100px;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 60px;
+    color: #fff;
+}
+.iconn h4{
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.iconn p{
+    font-size: 20px;
+}
